@@ -5,10 +5,13 @@ import '../../Styles/MainContent.css';
 
 function MainContent() {
     return (
-        <div className='main-content'>
-            <Projects/>
-            <AboutMe/>
-            <Contact/>
+        <div className='main-wrapper'>
+            <div className='main-content'>
+                <Projects />
+                <AboutMe />
+                <Contact />
+            </div>
+            <div className="hover-instruction">Hover over a card!</div>
         </div>
     )
 }
